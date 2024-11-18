@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="AVISO LEGAL"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n \n I. Información General \n"
+        android:textStyle="bold"
+        android:paddingStart="15dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cambios a los Términos de Servicio: El Sitio web puede cambiar los Términos de Uso a su sola discreción. El uso contínuo de este sitio web después de la publicación de dichos cambios constituiría su consentimiento a todos esos cambios. Es su responsabilidad visitar los Términos de Uso del Sitio web para revisar la versión actual. Podemos traducir estos Términos de Uso del Sitio Web a otros idiomas para la conveniencia de los usuarios. No obstante, la versión en inglés rige su relación con el Sitio Web, y cualquier divergencia entre las diferentes versiones se resolverá a favor de la versión en inglés."
+        android:paddingStart="15dp"/>
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+
+            android:id="@+id/btnAceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/boton_rojo_redondo"
+            android:text="Aceptar"
+            android:drawableLeft="@drawable/baseline_done_24"
+            android:padding="5dp"/>
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/boton_rojo_redondo"
+            android:text="Cancelar"
+            android:drawableLeft="@drawable/baseline_cancel_24"
+            android:padding="5dp"/>
+
+    </LinearLayout>
+</LinearLayout>
